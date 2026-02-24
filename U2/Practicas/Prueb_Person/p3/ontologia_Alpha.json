@@ -1,0 +1,20 @@
+{
+    "clases": ["Empleado", "ZonaRestringida"],
+    "individuos": {
+        "Dr_Aris": {
+            "tipo": "Empleado",
+            "nivel_seguridad": 2,
+            "intento_entrar_a": "Laboratorio_Gamma"
+        },
+        "Ingeniera_Elena": {
+            "tipo": "Empleado",
+            "nivel_seguridad": 3,
+            "intento_entrar_a": "Laboratorio_Gamma"
+        },
+        "Laboratorio_Gamma": {
+            "tipo": "ZonaRestringida",
+            "nivel_requerido": 4
+        }
+    },
+    "conocimiento_inferido": {}
+}

@@ -1,0 +1,19 @@
+{
+    "clases" :["Persona", "HijoDeMatrimonio"],
+    "individuos" : {
+        "Martin":{
+            "tipo":"Persona",
+            "edad": 35,
+            "esposa": "lenka"
+        },
+        "lenka":{
+            "tipo":"Persona",
+            "esposo": "Martin"
+        },
+        "Peter":{
+            "tipo":"Persona",
+            "padres": ["Martin", "lenka"]
+        }
+    },
+    "conocimiento_inferido": {}
+}

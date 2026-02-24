@@ -1,0 +1,43 @@
+{
+    "clases": ["Empleado", "ZonaRestringida", "Intruso"],
+    "individuos": {
+        "Dr_Aris": {
+            "tipo": "Empleado",
+            "nivel_seguridad": 5,
+            "intento_entrar_a": "Laboratorio_Gamma"
+        },
+        "Ingeniera_Elena": {
+            "tipo": "Empleado",
+            "nivel_seguridad": 3,
+            "intento_entrar_a": "Laboratorio_Gamma"
+        },
+        "Director_Falcon": {
+            "tipo": "Empleado",
+            "nivel_seguridad": 10,
+            "intento_entrar_a": "Archivo_Cero"
+        },
+        "Pasante_Kevin": {
+            "tipo": "Empleado",
+            "nivel_seguridad": 1,
+            "intento_entrar_a": "Comedor_Principal"
+        },
+        "Desconocido_X": {
+            "tipo": "Desconocido",
+            "nivel_seguridad": 0,
+            "intento_entrar_a": "Archivo_Cero"
+        },
+        "Laboratorio_Gamma": {
+            "tipo": "ZonaRestringida",
+            "nivel_requerido": 4
+        },
+        "Archivo_Cero": {
+            "tipo": "ZonaRestringida",
+            "nivel_requerido": 9
+        },
+        "Comedor_Principal": {
+            "tipo": "ZonaPublica",
+            "nivel_requerido": 1
+        }
+    },
+    "conocimiento_inferido": {}
+}
