@@ -1,0 +1,309 @@
+{
+    "metadatos": {
+        "dominio": "Red Semantica del Mundo Pokemon",
+        "version": "2.0"
+    },
+    "clase_base": [
+        "Entrenador",
+        "Pokemon",
+        "Organizacion",
+        "Region"
+    ],
+    "clases_inferidas": [
+        "LiderDeGimnasio",
+        "Campeon",
+        "Rival",
+        "Evolucion",
+        "PreEvolucion",
+        "PokemonLegendario",
+        "MiembroVillano",
+        "JefeVillano",
+        "Profesor"
+    ],
+    "individuos": {
+        "Kanto": {
+            "tipo": "Region",
+            "profesor_regional": "Profesor Oak",
+            "villanos_locales": "Team Rocket"
+        },
+        "Team Rocket": {
+            "tipo": "Organizacion",
+            "objetivo": "Robar Pokemon raros",
+            "lider": "Giovanni"
+        },
+        "Profesor Oak": {
+            "tipo": "Entrenador",
+            "edad": 55,
+            "region_origen": "Kanto",
+            "profesion": "Profesor Pokemon",
+            "nieto": "Gary"
+        },
+        "Ash": {
+            "tipo": "Entrenador",
+            "edad": 10,
+            "region_origen": "Kanto",
+            "profesion": "Campeon Mundial",
+            "pokemon_inicial": "Pikachu",
+            "rival": "Gary",
+            "amigos": [
+                "Misty",
+                "Brock"
+            ]
+        },
+        "Pikachu": {
+            "tipo": "Pokemon",
+            "nivel": 85,
+            "tipos_elementales": [
+                "Electrico"
+            ],
+            "entrenador": "Ash",
+            "movimiento_caracteristico": "Rayo"
+        },
+        "Gary": {
+            "tipo": "Entrenador",
+            "edad": 10,
+            "region_origen": "Kanto",
+            "profesion": "Investigador Pokemon",
+            "abuelo": "Profesor Oak",
+            "rival": "Ash",
+            "pokemon_principal": "Blastoise"
+        },
+        "Misty": {
+            "tipo": "Entrenador",
+            "edad": 12,
+            "region_origen": "Kanto",
+            "profesion": "Lider de Gimnasio",
+            "especialidad": "Agua",
+            "pokemon_principal": "Starmie"
+        },
+        "Brock": {
+            "tipo": "Entrenador",
+            "edad": 15,
+            "region_origen": "Kanto",
+            "profesion": "Criador Pokemon",
+            "especialidad": "Roca",
+            "pokemon_principal": "Onix"
+        },
+        "Giovanni": {
+            "tipo": "Entrenador",
+            "edad": 45,
+            "region_origen": "Kanto",
+            "profesion": "Jefe del Team Rocket",
+            "especialidad": "Tierra",
+            "pokemon_principal": "Persian"
+        },
+        "Jessie": {
+            "tipo": "Entrenador",
+            "edad": 25,
+            "afiliacion": "Team Rocket",
+            "compañeros": [
+                "James",
+                "Meowth"
+            ],
+            "pokemon_principal": "Arbok"
+        },
+        "James": {
+            "tipo": "Entrenador",
+            "edad": 25,
+            "afiliacion": "Team Rocket",
+            "compañeros": [
+                "Jessie",
+                "Meowth"
+            ],
+            "pokemon_principal": "Weezing"
+        },
+        "Meowth": {
+            "tipo": "Pokemon",
+            "nivel": 30,
+            "tipos_elementales": [
+                "Normal"
+            ],
+            "afiliacion": "Team Rocket",
+            "habla_humano": true
+        },
+        "Bulbasaur": {
+            "tipo": "Pokemon",
+            "nivel": 16,
+            "tipos_elementales": [
+                "Planta",
+                "Veneno"
+            ],
+            "evolucion": "Ivysaur"
+        },
+        "Ivysaur": {
+            "tipo": "Pokemon",
+            "nivel": 32,
+            "tipos_elementales": [
+                "Planta",
+                "Veneno"
+            ],
+            "pre_evolucion": "Bulbasaur",
+            "evolucion": "Venusaur"
+        },
+        "Venusaur": {
+            "tipo": "Pokemon",
+            "nivel": 50,
+            "tipos_elementales": [
+                "Planta",
+                "Veneno"
+            ],
+            "pre_evolucion": "Ivysaur"
+        },
+        "Charmander": {
+            "tipo": "Pokemon",
+            "nivel": 12,
+            "tipos_elementales": [
+                "Fuego"
+            ],
+            "evolucion": "Charmeleon"
+        },
+        "Charmeleon": {
+            "tipo": "Pokemon",
+            "nivel": 28,
+            "tipos_elementales": [
+                "Fuego"
+            ],
+            "pre_evolucion": "Charmander",
+            "evolucion": "Charizard"
+        },
+        "Charizard": {
+            "tipo": "Pokemon",
+            "nivel": 60,
+            "tipos_elementales": [
+                "Fuego",
+                "Volador"
+            ],
+            "pre_evolucion": "Charmeleon",
+            "entrenador": "Ash"
+        },
+        "Mewtwo": {
+            "tipo": "Pokemon",
+            "nivel": 100,
+            "tipos_elementales": [
+                "Psiquico"
+            ],
+            "categoria": "Legendario",
+            "creador": "Team Rocket"
+        }
+    },
+    "conocimiento_inferido": {
+        "Profesor Oak": {
+            "compatriotas": [
+                "Ash",
+                "Gary",
+                "Misty",
+                "Brock",
+                "Giovanni"
+            ]
+        },
+        "Ash": {
+            "equipo_pokemon": [
+                "Pikachu",
+                "Charizard"
+            ],
+            "compatriotas": [
+                "Profesor Oak",
+                "Gary",
+                "Misty",
+                "Brock",
+                "Giovanni"
+            ]
+        },
+        "Gary": {
+            "compatriotas": [
+                "Profesor Oak",
+                "Ash",
+                "Misty",
+                "Brock",
+                "Giovanni"
+            ]
+        },
+        "Misty": {
+            "compatriotas": [
+                "Profesor Oak",
+                "Ash",
+                "Gary",
+                "Brock",
+                "Giovanni"
+            ]
+        },
+        "Brock": {
+            "compatriotas": [
+                "Profesor Oak",
+                "Ash",
+                "Gary",
+                "Misty",
+                "Giovanni"
+            ]
+        },
+        "Giovanni": {
+            "compatriotas": [
+                "Profesor Oak",
+                "Ash",
+                "Gary",
+                "Misty",
+                "Brock"
+            ]
+        },
+        "Jessie": {
+            "colegas_profesion_o_bando": [
+                "James",
+                "Meowth"
+            ]
+        },
+        "James": {
+            "colegas_profesion_o_bando": [
+                "Jessie",
+                "Meowth"
+            ]
+        },
+        "Meowth": {
+            "colegas_profesion_o_bando": [
+                "Jessie",
+                "James"
+            ]
+        },
+        "Bulbasaur": {
+            "evolucion_fase_2": [
+                "Venusaur"
+            ],
+            "comparte_tipo": [
+                "Ivysaur",
+                "Venusaur"
+            ]
+        },
+        "Ivysaur": {
+            "comparte_tipo": [
+                "Bulbasaur",
+                "Venusaur"
+            ]
+        },
+        "Venusaur": {
+            "comparte_tipo": [
+                "Bulbasaur",
+                "Ivysaur"
+            ]
+        },
+        "Charmander": {
+            "evolucion_fase_2": [
+                "Charizard"
+            ],
+            "comparte_tipo": [
+                "Charmeleon",
+                "Charizard"
+            ]
+        },
+        "Charmeleon": {
+            "comparte_tipo": [
+                "Charmander",
+                "Charizard"
+            ]
+        },
+        "Charizard": {
+            "comparte_tipo": [
+                "Charmander",
+                "Charmeleon"
+            ]
+        }
+    }
+}
