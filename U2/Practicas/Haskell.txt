@@ -1,0 +1,9 @@
+Haskell
+ghc nombre.hs 
+./nombre
+
+Prolog
+swipl
+consult('nombre.pl').
+
+--para hacer consulta de listas se hace lo anterior y despues la tecla espacio
